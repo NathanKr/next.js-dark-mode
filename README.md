@@ -8,9 +8,24 @@ Use also dark mode in my next.js
  npm i next-themes
  ```
 
+<h2>next-themes</h2>
+<ul>
+<li>This is the module that manages the theme</li>
+<li>It persist the theme to local storage 
+
+ ![Screenshot](./figs/theme-persitance-by-next-thems.png)</li>
+</ul>
+
 <h2>Code - _app.tsx</h2>
 
+<p>The code is here so it will be common for pages</p>
+
+
 ```typescript
+import { ThemeProvider } from "next-themes";
+
+...
+
  <ThemeProvider>
       <Component {...pageProps} />
     </ThemeProvider>
@@ -60,7 +75,11 @@ export default function Home() {
  ```
 <h2>Points of interest</h2>
 <ul>
-<li>data-theme in globals.css is actually a proprty of the html tag. You can verify this using the elements tab e.g. in chrome dev tools. Its value is light or dark (and system ??)</li>
+<li>data-theme in globals.css is actually an attribute of the html tag. You can verify this using the elements tab e.g. in chrome dev tools. Its value is light or dark (and system ??)
+
+![Screenshot](./figs/data-theme-attribute.png)
+
+</li>
 </ul>
 
 <h2>Open issues</h2>
