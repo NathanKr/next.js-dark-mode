@@ -11,11 +11,9 @@ Use also dark mode in my next.js
 <h2>Code - _app.tsx</h2>
 
 ```typescript
-
  <ThemeProvider>
       <Component {...pageProps} />
     </ThemeProvider>
-
 ```
 
 <h2>Code - index.tsx</h2>
