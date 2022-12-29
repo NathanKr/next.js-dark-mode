@@ -8,6 +8,16 @@ Use also dark mode in my next.js
  npm i next-themes
  ```
 
+<h2>Code - _app.tsx</h2>
+
+```typescript
+
+ <ThemeProvider>
+      <Component {...pageProps} />
+    </ThemeProvider>
+
+```
+
 <h2>Code - index.tsx</h2>
 mounted is used due to hydration problem - check 'Avoid Hydration Mismatch' <a href='https://www.npmjs.com/package/next-themes'>here</a>
 
