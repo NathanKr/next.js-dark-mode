@@ -58,6 +58,10 @@ export default function Home() {
   --foreground: white;
 }
  ```
+<h2>Points of interest</h2>
+<ul>
+<li>data-theme in globals.css is actually a proprty of the html tag. You can verify this using the elements tab e.g. in chrome dev tools. Its value is light or dark (and system ??)</li>
+</ul>
 
 <h2>Open issues</h2>
 <ul>
