@@ -91,8 +91,4 @@ export default function Home() {
 </li>
 </ul>
 
-<h2>Open issues</h2>
-<ul>
-<li>understand better the css</li>
-<li>do i need mounted on every page</li>
-</ul>
+
