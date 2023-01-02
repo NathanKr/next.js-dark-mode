@@ -9,6 +9,7 @@ export default function Home() {
 
   useEffect(() => setMounted(true),[])
 
+  // mounted is used due to hydration problem
   if(!mounted){
     return null;
   }
@@ -19,7 +20,7 @@ export default function Home() {
         <div className={styles.description}>
           <button onClick={() => setTheme('light')}>set light</button>
           <button onClick={() => setTheme('dark')}>set dark</button>
-          <p>theme : ${theme}</p>
+          <p>theme : {theme}</p>
         </div>
       </main>
     </>
