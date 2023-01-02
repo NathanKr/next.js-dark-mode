@@ -1,16 +1,25 @@
 <h2>Motivation</h2>
 Use also dark mode in my next.js
 
-<h2>Installation</h2>
- It seems that next-themes is the way
 
- ```
- npm i next-themes
- ```
+<h2>Setup</h2>
+
+<h3>Install</h3>
+
+```
+npm i
+```
+
+<h3>Run</h3>
+
+```
+npm run dev
+```
+
 
 <h2>next-themes</h2>
 <ul>
-<li>This is the module that manages the theme</li>
+<li>This is the module that manages the theme via context api</li>
 <li>It persist the theme to local storage 
 
  ![Screenshot](./figs/theme-persitance-by-next-thems.png)</li>
